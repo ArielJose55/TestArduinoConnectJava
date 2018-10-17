@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+
+
+mainClassName = 'App'
+
+dependencies {
+	api 'com.github.PanamaHitek:PanamaHitek_Arduino:3.0.0'
+    testCompile 'junit:junit:4.12'
+}
