@@ -12,6 +12,6 @@ repositories {
 mainClassName = 'App'
 
 dependencies {
-	api 'com.github.PanamaHitek:PanamaHitek_Arduino:3.0.0'
+	compile 'com.github.PanamaHitek:PanamaHitek_Arduino:3.0.0'
     testCompile 'junit:junit:4.12'
 }

@@ -6,6 +6,8 @@
 
 package testarduino;
 
+import com.panamahitek.ArduinoException;
+
 import testarduino.vista.MainFrame;
 
 /**
@@ -16,8 +18,9 @@ public class TestArduino {
 
     /**
      * @param args the command line arguments
+     * @throws ArduinoException 
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ArduinoException {
         new MainFrame().setVisible(true);
     }
     
